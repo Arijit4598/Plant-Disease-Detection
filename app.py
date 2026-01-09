@@ -332,7 +332,7 @@ def prediction():
         # AI-powered Prevention & Cure
         st.subheader("🛡 Prevention, Cure & Crop Management")
 
-        with st.spinner("Generating scientific agricultural advice..."):
+        with st.spinner("Scientific agricultural advice..."):
             ai_response = generate_agri_response(
                 plant=plant,
                 disease=disease
