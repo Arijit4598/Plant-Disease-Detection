@@ -259,7 +259,7 @@ Your response MUST follow this structure:
             "X-Title": "Agricultural Disease Advisory AI"
         },
         json={
-            "model": "mistralai/devstral-2512:free",
+            "model": "mistralai/mistral-small-3.1-24b-instruct:free",
             "messages": [
                 {"role": "system", "content": "You are a strict agricultural science expert."},
                 {"role": "user", "content": prompt}
